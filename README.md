@@ -35,9 +35,11 @@ node index.js init
 node index.js add myfile.txt
 node index.js commit "Initial commit"
 
+```
+
 ---
 
-✅ initRepo in controllers/init.js
+## ✅ initRepo in controllers/init.js
 Initializes a .codehub folder in the current directory and sets up the config.
 
 Key Concepts:
@@ -57,10 +59,6 @@ Key Concepts:
 
 Output Folder:
 After node index.js init, you get:
-
-pgsql
-Copy
-Edit
 .codehub/
 ├── config.json   ← contains {"bucket": "your-bucket-name"}
 └── commits/      ← empty folder to store commit files
@@ -86,11 +84,11 @@ Quick Revision
 
 🌐 Running the CLI
 Install dependencies (if using packages like yargs):
-
+```
 npm install yargs
-
+```
 Run commands:
-
+```
 node index.js init
 node index.js add file.txt
 node index.js commit "Add file"
