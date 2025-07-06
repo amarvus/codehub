@@ -59,10 +59,11 @@ Key Concepts:
 
 Output Folder:
 After node index.js init, you get:
+```
 .codehub/
 ├── config.json   ← contains {"bucket": "your-bucket-name"}
 └── commits/      ← empty folder to store commit files
-
+```
 ---
 
 Quick Revision
