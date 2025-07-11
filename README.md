@@ -1,6 +1,6 @@
 # CodeHub
 
-**Project Status: In Progress**
+**Project Status: Paused**
 
 ---
 
